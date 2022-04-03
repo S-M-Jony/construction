@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900i|Roboto:400,700,900i&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.p-70{
+    padding: 70px 0px;
+}
+
+.color-primary{
+    color: #FAB702;
+}
+
+.bgcolor-primary{
+    background-color: #FAB702;
+}
+
+.btn-logo{
+background-color:#FAB702;
+color: #fff;
+padding: 15px 30px;
+border-radius: 0;
+font-weight: 700;
+transition: .5s;
+-moz-transition: .5s;
+-webkit-transition: .5s;
+    
+}
+
+.btn-logo-reverse{
+background-color:#fff;
+color:#FAB702;
+
+    
+}
+
+.btn-logo:hover{
+    background-color:black;
+    color: #FAB702;
+}
+
+/*header section*/
+
+/*topbar-part*/
+
+.top-bar{
+    background-color: #F5F5F5;
+    color: #696969;
+}
+
+.rotate-45 i{
+    transform: rotate(90deg);
+}
+
+/*navbar section*/
+.nav-item{
+    margin-left: 35px;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FAB702;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/*banner-section*/
+
+.banner-wrapper{
+    position: relative;
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 700px;
+}
+
+.banner h1{
+    font-size: 60px;
+}
+
+
+.banner p{
+    line-height: 1.7;
+}
+
+/*quote section*/
+.get-quote{
+    background-color: #FAB702;
+}
+
+/*our-service-section*/
+
+.sec-text p{
+  color: #696969;
+}
+
+.service-content{
+    padding-top: 70px;
+}
+
+.service-header h3:hover{
+    color: #FAB702;
+}
+
+.service-button a{
+    color: #696969;
+}
+
+.service-button a:hover{
+    color: #FAB702;
+}
+
+
+/*promo wrapper*/
+.video-wrapper iframe{
+    display: block;
+}
+
+.promo{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    
+}
+.promo-item{
+    padding: 0 15px;
+}
+
+.promo-content h5:hover{
+    color: #FAB702;
+}
+
+/*featured-wrapper*/
+
+
+.filter-button-group button{
+    background: transparent;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filter-button-group  button:hover{
+    color: #fab702;
+    border-bottom: 2px solid #fab702;
+}
+
+
+.element-item{
+    width:100%;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    padding: 20px 15px;
+    width: 100%;
+    background-color: #FEF6DE;
+    left: 0;
+    bottom: -100px;
+    transition: .5s;
+}
+
+
+.element-item:hover .overlay{
+    bottom: 0;
+}
+.overlay i{
+    background-color:#FAB702;
+    color:#fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.featured-title{
+    position: relative;
+}
+
+.featured-title:after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #9496A9;
+    bottom: -10px;
+    left: 0;
+}
+
+
+/*testimonial-carousel*/
+
+.feedback-img{
+    width: 100px;
+    height: 120px;
+    background-color: #FD4C3C;
+}
+.feedback-element h5{
+    font-weight: 700;
+}
+
+
+
+/*counter-part*/
+
+.counter-item h2{
+    font-size: 2.2rem;
+}
+
+/*contact-wrapper*/
+
+.contact-wrapper{
+    background-color:#f9f9f9;
+}
+
+.contact-text{
+    padding: 30px;
+}
+
+.contact-body{
+    background-color: #fff;
+    border-left: 5px solid #fab702;
+    
+}
+
+
+/*footer section*/
+
+footer{
+    background-color: #252C3A;
+    font-size: 12px;
+}
+
+.rec-posts{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rec-post-item{
+    border-bottom: 1px solid #aaa;
+}
+
+.rec-post-link:hover{
+    text-decoration: none;
+}
+
+/*recent-news-part*/
+
+.recent-news{
+    color: #fff;
+}
+
+
+
+/*contact-section*/
+
+.social-icons i{
+    font-size: 25px;
+}
+
+.social-icons i:hover{
+   color: #fab702;
+}
+
+.social-icons a{
+    color: #fff;
+}
+
+
+
